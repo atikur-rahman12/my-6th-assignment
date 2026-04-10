@@ -50,7 +50,7 @@ const Steps = () => {
             </div>
             <h1 className="text-black text-2xl font-bold my-3">Start Creating</h1>
             <p className="text-[#627382] mb-4">
-              Download and start using your premium <br /> tools immediately.
+              Download and start using your premium <br /> tools immediately.//
             </p>
           </div>
         </div>
