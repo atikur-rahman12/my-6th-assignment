@@ -43,7 +43,7 @@ const PremiumTools = ({ PricingPromise, cartItems, setCartItems }) => {
       </div>
       <div className="mt-10">
         {activeTab === "Products" ? (
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {pricingData.map((pricing) => (
               <PricingCard
                 key={pricing.id}

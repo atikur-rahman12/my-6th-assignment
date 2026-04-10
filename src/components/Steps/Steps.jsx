@@ -28,7 +28,7 @@ const Steps = () => {
         </div>
         <div className="bg-white border border-gray-300 shadow-2xl shadow-black rounded-lg p-6">
           <div className="text-end mb-10">
-            <span className="bg-linear-to-r from-indigo-600 to-purple-500 p-2 text-xl rounded-full">01</span>
+            <span className="bg-linear-to-r from-indigo-600 to-purple-500 p-2 text-xl rounded-full">02</span>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 mx-auto rounded-full flex items-center justify-center bg-gray-200">
@@ -42,7 +42,7 @@ const Steps = () => {
         </div>
         <div className="bg-white border border-gray-300 shadow-2xl shadow-black rounded-lg p-6">
           <div className="text-end mb-10">
-            <span className="bg-linear-to-r from-indigo-600 to-purple-500 p-2 text-xl rounded-full">01</span>
+            <span className="bg-linear-to-r from-indigo-600 to-purple-500 p-2 text-xl rounded-full">03</span>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 mx-auto rounded-full flex items-center justify-center bg-gray-200">

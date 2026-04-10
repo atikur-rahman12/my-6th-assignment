@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-      <aside className="ml-30">
+      <aside className="md:ml-10">
         <h1 className="text-6xl font-bold mb-5">DigiTools</h1>
         <p className="text-gray-400">
           Premium digital tools for creators, <br /> professionals, and

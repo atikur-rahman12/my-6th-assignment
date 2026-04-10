@@ -9,7 +9,7 @@ const PricingCard = ({ pricing, handleAddToCart, buttonStyle }) => {
     New: "bg-[#DBFCE7] text-[#0A883E]",
   };
   return (
-    <div className="card w-96 bg-base-100 shadow-sm mt-5 border border-gray-700 mx-auto transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
+    <div className="card w-full max-w-sm mx-auto bg-base-100 shadow-sm mt-5 border border-gray-700 transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
       <div className="card-body">
         <div className="flex justify-between mb-4">
           <div className="w-15 h-15 mt-6 rounded-full flex items-center justify-center border border-gray-500">
