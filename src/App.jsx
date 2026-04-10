@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import PremiumTools from "./components/PremiumTools/PremiumTools";
 import Steps from "./components/Steps/Steps";
 import TransparentPricing from "./components/TransparentPricing/TransparentPricing";
+import WorkFlow from "./components/WorkFlow/WorkFlow";
 
 const PricingPromise = fetch("pricingData.json").then((res) => res.json());
 const simplePricingPromise  = fetch("simplePricingData.json").then((res) => res.json())
@@ -35,6 +36,8 @@ function App() {
       simplePricingPromise={simplePricingPromise}
       />
       </Suspense>
+
+      <WorkFlow />
     </>
   );
 }
