@@ -57,7 +57,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "../src/assets/products/operation.png" 
   },
   {
     "id": 5,
@@ -86,7 +86,7 @@
       "100+ templates",
       "Scheduler included",
       "Analytics dashboard"
-    ],
-    "icon": "../src/assets/products/social-media.png"
+    ]
+    
   }
 ]

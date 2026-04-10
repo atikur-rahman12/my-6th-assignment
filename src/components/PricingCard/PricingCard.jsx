@@ -56,7 +56,7 @@ const PricingCard = ({ pricing, handleAddToCart, buttonStyle }) => {
           >
             {buttonStyle === pricing.id ? (
               <span className="flex items-center gap-2 justify-center">
-                <Check /> Added to Cart
+                <Check /> Added to Cart //
               </span>
             ) : (
               "Buy Now"
