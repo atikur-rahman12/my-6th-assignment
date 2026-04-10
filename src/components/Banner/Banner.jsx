@@ -5,9 +5,9 @@ import { CircleDot, Play } from "lucide-react";
 const Banner = () => {
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen ">
+      <div className="hero bg-base-200 min-h-screen mb-4">
         <div className="hero-content flex-col lg:flex-row-reverse gap-8 lg:gap-20">
-          <img src={bannerImg} className="w-full max-w-xs sm:max-w-sm rounded-lg shadow-2xl" />
+          <img src={bannerImg} className="w-full max-w-md lg:max-w-lg mx-auto rounded-lg shadow-2xl" />
           <div>
             <p className="bg-[#E1E7FF] p-1 px-3 rounded-full inline-block mb-4">
               <span className="flex items-center gap-2 bg-linear-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent font-medium text-md">
@@ -15,7 +15,7 @@ const Banner = () => {
                 New: AI-Powered Tools Available
               </span>
             </p>
-            <h1 className="text-5xl md:text-6xl font-extrabold">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
               Supercharge Your <br /> Digital Workflow
             </h1>
             <p className="py-6 text-[#627382] text-lg">

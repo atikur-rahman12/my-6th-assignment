@@ -5,7 +5,7 @@ const SimplePricingCard = ({ simplePricing }) => {
     simplePricing;
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-sm h-full mx-auto mt-10 transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
+      <div className="card w-full max-w-md mx-auto bg-base-100 shadow-sm h-full mt-10 transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg">
         <div
           className={`card-body border rounded-2xl ${
             popular
