@@ -80,7 +80,6 @@ const NavBar = ({ cartItems }) => {
         <span className="btn btn-ghost rounded-full font-normal">Login</span>
         <a className="btn bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-full font-medium">
           Get Started
-          //
         </a>
       </div>
     </div>
