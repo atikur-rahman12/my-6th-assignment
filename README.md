@@ -22,7 +22,8 @@ Premium Tools Store is a modern React-based web application where users can expl
 ---
 
 ## 📷 Preview
-_Add your project screenshots or GIF here_
+<img width="1918" height="897" alt="Capture" src="https://github.com/user-attachments/assets/6cf18cda-a102-4e8b-87dc-07e8aac6e4c2" />
+
 
 ---
 
