@@ -1,6 +1,8 @@
 import { ShoppingCart } from "lucide-react";
 import React from "react";
 
+// Cart
+
 const Cart = ({ cartItems, setCartItems }) => {
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
