@@ -2,13 +2,16 @@ import { ShoppingCart } from "lucide-react";
 import React from "react";
 
 const Cart = ({ cartItems, setCartItems }) => {
-
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
   const handleRemove = (product) => {
     console.log("Remove from cart:", product);
     const filteredItems = cartItems.filter((item) => item.id !== product.id);
     setCartItems(filteredItems);
+  };
+
+  const handleCheckout = () => {
+    setCartItems([]);
   };
 
   return (
@@ -61,8 +64,8 @@ const Cart = ({ cartItems, setCartItems }) => {
             <p className="text-gray-500 font-medium text-md">Total :</p>
             <span className="text-black font-bold text-md">${totalPrice}</span>
           </div>
-          <button className="btn btn-primary text-white font-medium text-lg rounded-full mx-auto w-11/12 flex mb-5">
-            Proceed to Checkout 
+          <button onClick={handleCheckout} className="btn btn-primary text-white font-medium text-lg rounded-full mx-auto w-11/12 flex mb-5">
+            Proceed to Checkout
           </button>
         </div>
       )}
