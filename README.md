@@ -32,9 +32,3 @@ https://iridescent-platypus-b9dab8.netlify.app/
 
 ---
 
-## ⚙️ Installation & Setup
-```bash
-git clone https://github.com/your-username/premium-tools-store.git
-cd premium-tools-store
-npm install
-npm run dev
