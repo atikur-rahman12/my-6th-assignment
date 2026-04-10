@@ -28,7 +28,7 @@ const Banner = () => {
             </button>
             <button className="btn btn-outline rounded-full font-medium">
               <Play className="mr-1.5 text-indigo-600" />
-              <span className="bg-linear-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">Watch Demo</span>//
+              <span className="bg-linear-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">Watch Demo</span>
             </button>
           </div>
         </div>

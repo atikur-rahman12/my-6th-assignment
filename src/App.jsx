@@ -28,7 +28,7 @@ function App() {
         />
       </Suspense>
 
-      <Steps></Steps> 
+      <Steps></Steps> //
 
       <Suspense fallback={<div>Loading...</div>}>
       <TransparentPricing 

@@ -19,7 +19,7 @@ const Counter = () => {
 
       <div className="text-center">
         <h1 className="text-6xl font-bold">4.9</h1>
-        <p className="text-xl mt-2 text-gray-300">Rating</p>
+        <p className="text-xl mt-2 text-gray-300">Rating</p>//
       </div>
     </div>
   );
