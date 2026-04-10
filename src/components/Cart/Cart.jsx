@@ -62,7 +62,7 @@ const Cart = ({ cartItems, setCartItems }) => {
             <span className="text-black font-bold text-md">${totalPrice}</span>
           </div>
           <button className="btn btn-primary text-white font-medium text-lg rounded-full mx-auto w-11/12 flex mb-5">
-            Proceed to Checkout //
+            Proceed to Checkout 
           </button>
         </div>
       )}
