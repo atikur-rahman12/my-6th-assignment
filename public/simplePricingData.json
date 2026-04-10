@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "description": "A great starting plan for individuals.",
+    "price": "$8",
+    "period": "monthly",
+    "features": [
+      "20+ templates",
+      "Basic customization",
+      "Export to PDF",
+      "Mobile friendly editor",
+      "Email support",
+      "Cloud save access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro Plan",
+    "description": "Advanced tools for professionals and freelancers.",
+    "price": "$18",
+    "period": "monthly",
+    "features": [
+      "100+ templates",
+      "Advanced customization",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "Priority support",
+      "Real-time preview"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "description": "Complete solution with all premium features included.",
+    "price": "$28",
+    "period": "monthly",
+    "features": [
+      "200+ premium templates",
+      "Custom branding options",
+      "Multi-format export",
+      "Team collaboration",
+      "24/7 live support",
+      "Advanced analytics dashboard"
+    ]
+  }
+]
