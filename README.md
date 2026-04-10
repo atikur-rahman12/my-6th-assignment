@@ -27,7 +27,7 @@ _Add your project screenshots or GIF here_
 ---
 
 ## 🔗 Live Demo
-_Add your live site link here_
+https://iridescent-platypus-b9dab8.netlify.app/
 
 ---
 
