@@ -48,7 +48,7 @@ const PremiumTools = ({ PricingPromise, cartItems, setCartItems }) => {
               <PricingCard
                 key={pricing.id}
                 pricing={pricing}
-                handleAddToCart={handleAddToCart}//
+                handleAddToCart={handleAddToCart}
                 buttonStyle={buttonStyle}
               />
             ))}

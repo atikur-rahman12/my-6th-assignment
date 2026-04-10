@@ -86,7 +86,8 @@
       "100+ templates",
       "Scheduler included",
       "Analytics dashboard"
-    ]
+    ],
+    "icon": "../src/assets/products/social-media.png"
     
   }
 ]
