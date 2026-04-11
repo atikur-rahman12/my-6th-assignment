@@ -3,10 +3,10 @@ import React from "react";
 
 const NavBar = ({ cartItems }) => {
   return (
-    <div className="navbar bg-base-100 shadow-sm sticky top-0 z-10 px-2 sm:px-4 overflow-x-hidden">
-      <div className="navbar-start">
+    <div className="navbar bg-base-100 shadow-sm sticky top-0 z-10 px-2 sm:px-4 flex-nowrap">
+      <div className="navbar-start gap-0">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost px-1 lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -44,11 +44,11 @@ const NavBar = ({ cartItems }) => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl sm:text-3xl lg:text-3xl font-bold bg-linear-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent">
+        <a className="btn btn-ghost text-xl sm:text-2xl lg:text-3xl font-bold bg-linear-to-r from-indigo-600 to-purple-500 bg-clip-text text-transparent max-w-30 sm:max-w-full truncate">
           DigiTools
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex justify-center ">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a>Products</a>
@@ -77,8 +77,8 @@ const NavBar = ({ cartItems }) => {
             </span>
           )}
         </span>
-        <span className="btn btn-ghost rounded-full font-normal">Login</span>
-        <a className="btn bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-full font-medium">
+        <span className="btn btn-ghost rounded-full font-normal sm:flex">Login</span>
+        <a className="btn bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-full font-medium px-3 sm:px-5 text-sm sm:text-base">
           Get Started
         </a>
       </div>
