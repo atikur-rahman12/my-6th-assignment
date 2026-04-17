@@ -28,7 +28,7 @@ Premium Tools Store is a modern React-based web application where users can expl
 ---
 
 ## 🔗 Live Demo
-https://jolly-liger-56a46e.netlify.app/
+https://my-6th-assignment.vercel.app/
 
 ---
 
